@@ -1,0 +1,31 @@
+displayName: PPFS Assistant
+schemaName: yht_PPFSAssistant
+accessControlPolicy: GroupMembership
+authenticationMode: Integrated
+authenticationTrigger: Always
+configuration:
+  channels:
+    - channelId: MsTeams
+
+    - channelId: Microsoft365Copilot
+
+  recognizer:
+    kind: CLICopilotRecognizer
+
+  agentSettings:
+    model:
+      series: Sonnet46
+
+    greetingText: "Bienvenue au Power Platform French Summit 2026 (Paris, 8 et 9 décembre) ! Je suis PPFS Assistant : posez-moi vos questions sur l'agenda, les sessions, les intervenants ou la logistique. You can also ask in English."
+    memory:
+      enableMemory: true
+
+    instructions:
+      segments:
+        - kind: StaticSegment
+
+  authoringModel: CliCopilot
+
+publishedOn: 2026-10-16T07:34:51.0000000Z
+template: cliagent-1.0.0
+language: 1033
