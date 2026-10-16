@@ -1,0 +1,106 @@
+# Power Platform French Summit 2026: agenda
+
+Official agenda of the Power Platform French Summit 2026 (#PPFS2026), Paris, December 8 and 9, 2026, exported from the official website's agenda page (https://en.powerplatformfrenchsummit.com/agenda) on October 15, 2026. All times are in the Europe/Paris time zone. Each line gives the time, the room, the session title, the speakers, the topics, the level and the session language.
+
+## Tuesday, December 8, 2026
+
+- **08:00 - 09:00**, Amphi C001: **Breakfast**
+- **09:00 - 10:00**, Amphi C001: **Keynote #PPFS2026**. Speakers: Aurelien CLERE. Topics: Power Apps, Power Automate, Dataverse, Power Pages, Copilot Studio, Power BI, Fabric, AI Builder, Dynamics 365, Microsoft 365, Azure, Copilot, KEYNOTE. Level: 100 - Débutant. Session en Français
+- **10:00 - 10:15**, Amphi C001: **Break**
+- **10:15 - 10:45**, Amphi A001: **Copilot Studio : comment KESTREL est passée des premiers tests à une démarche IA structurée ?**. Speakers: Antoine Poutot. Topics: Copilot Studio. Level: 100 - Débutant. Session en Français
+- **10:15 - 10:45**, Amphi C001: **Organiser un Agentathon à succès**. Speakers: Nada Brisville. Topics: Copilot Studio, Copilot. Level: 100 - Débutant. Session en Français
+- **10:15 - 10:45**, Amphi E001: **Trois secteurs, trois projets Copilot Studio : ce qui a marché, ce qui a coincé, ce qui a manqué**. Speakers: Fouziya LAHJIOUJ. Topics: Power Automate, Copilot Studio, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **10:15 - 10:45**, Amphi E002: **REX Vinci Construction - Effacer la dette technique d'une application métier critique grâce à Power Apps Code Apps**. Speakers: Alexis Deluze, Moran Seznec. Topics: Power Apps, Dataverse, Sponsor. Level: 200 - Intermédiaire. Session en Français
+- **10:15 - 10:45**, Amphi E003: **Contract 15 : quand la donnée contractuelle devient un levier de décision**. Speakers: Didier Ramond, Wassim Ben Ammar. Topics: Power Apps, Power Automate. Level: 200 - Intermédiaire. Session en Français
+- **10:45 - 11:00**, all rooms: **Coffee Break**
+- **11:00 - 11:30**, Amphi A001: **REX CodeApps : le pari qui a transformé nos applications**. Speakers: Clothilde Facon, Alexandre Demilly. Topics: Power Apps, Dataverse. Level: 100 - Débutant. Session en Français
+- **11:00 - 11:30**, Amphi C001: **Construire un Business Case Copilot : méthodologie, bénéfices mesurables et modèle de coûts pour un passage à l'échelle**. Speakers: jean romero, Nicolas Kirrmann. Topics: Copilot Studio, Copilot. Level: 100 - Débutant. Session en Français
+- **11:00 - 11:30**, Amphi E001: **From Contact Center to Autonomous Service**. Speakers: Roman NIKIFOROV. Topics: Copilot Studio, Dynamics 365. Level: 200 - Intermédiaire. Session en Français
+- **11:00 - 11:30**, Amphi E002: **IA métier : au-delà des promesses, quels gains concrets pour les directions Finance, Supply Chain, Commerciale et Opérationnelle ?**. Speakers: Jeanne Bourgain Ponsolles, Renaud Pourcin-Jury. Topics: Copilot Studio, Dynamics 365, Copilot, Sponsor. Level: 100 - Débutant. Session en Français
+- **11:00 - 11:30**, Amphi E003: **ROI et Productivité : L'approche Vibe Coding pour vos portails Power Pages**. Speakers: Gilles Pommier. Topics: Power Pages, Microsoft 365. Level: 200 - Intermédiaire. Session en Français
+- **11:30 - 11:45**, all rooms: **Break**
+- **11:45 - 12:15**, Amphi A001: **Données, IA et réalité terrain : pourquoi notre chatbot RH a échoué**. Speakers: Younes BOKHARI. Topics: Power Automate, Dataverse, Copilot Studio, Power BI, Microsoft 365, Azure. Level: 100 - Débutant. Session en Français
+- **11:45 - 12:15**, Amphi C001: **L'IT quitte la DSI : skills, agents et nouveaux makers**. Speakers: Pierre Bourdial, Nicolas Kirrmann. Topics: Copilot Studio, Microsoft 365, Copilot. Level: 100 - Débutant. Session en Français
+- **11:45 - 12:15**, Amphi E001: **Une idée, six façons de la concrétiser : comment faire le bon choix?**. Speakers: BOURDIN STEVE, Emmanuel PITEAU. Topics: Power Apps, Copilot Studio. Level: 200 - Intermédiaire. Session en Français
+- **11:45 - 12:15**, Amphi E002: **Peut-on solder 40 ans de dette technique avec l’IA ? Le REX du DSI de Fedd**. Speakers: imad bensisaid, Sylvain Laquiche. Topics: Azure, Sponsor. Level: 200 - Intermédiaire. Session en Français
+- **11:45 - 12:15**, Amphi E003: **Copilot Studio "V2" change de dimension : agents, workflows, skills… et applications**. Speakers: Romain GERARD. Topics: Power Automate, Copilot Studio. Level: 100 - Débutant. Session en Français
+- **12:15 - 14:00**, all rooms: **Déjeuner / Networking / Sponsor**
+- **14:00 - 14:30**, Amphi A001: **Cellnex × Power Platform : 3 ans pour rebattre les cartes du SI**. Speakers: DELARBOULAS Rémi, David Verbeke. Topics: Power Apps, Power Automate, Dataverse, Power Pages, Copilot Studio, AI Builder, Azure. Level: 200 - Intermédiaire. Session en Français
+- **14:00 - 14:30**, Amphi C001: **Copilot Credits à grande échelle : maîtriser les coûts et accélérer l'adoption**. Speakers: Henry Jammes. Topics: Copilot Studio, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **14:00 - 14:30**, Amphi E001: **L’illusion de la productivité avec l’IA : mesurer la valeur réelle d’un processus automatisé**. Speakers: Michel HUBERT. Topics: Power Apps, Power Automate, Copilot Studio. Level: 200 - Intermédiaire. Session en Français
+- **14:00 - 14:30**, Amphi E002: **[REX] : Copilot Studio en conditions réelles : ce que nos projets clients nous ont vraiment appris**. Speakers: Romain GERARD. Topics: Power Automate, Copilot Studio, AI Builder, Microsoft 365, Copilot, Sponsor. Level: 200 - Intermédiaire. Session en Français
+- **14:00 - 14:30**, Amphi E003: **Les 10 commandements pour réussir son agent Copilot Studio**. Speakers: David Vachala. Topics: Power Automate, Copilot Studio, AI Builder, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **14:30 - 14:45**, all rooms: **Coffee Break**
+- **14:45 - 15:15**, Amphi A001: **REX Getlink : Application Power Apps : quand le plan B devient la solution définitive.**. Speakers: Florian VOILLOT. Topics: Power Apps, Dataverse. Level: 200 - Intermédiaire. Session en Français
+- **14:45 - 15:15**, Amphi C001: **Licensing & IA : combien coûte vraiment un agent ? GitHub Copilot, Copilot Studio et la bascule du per-user au per-usage**. Speakers: Anes BEN ELHADJ HASSEN. Topics: Copilot Studio. Level: 200 - Intermédiaire. Session en Français
+- **14:45 - 15:15**, Amphi E001: **Agent Builder ou Copilot Studio ? Arrêtons de choisir au hasard**. Speakers: Pauline LEROY, Simon Le Bayon. Topics: Dataverse, Copilot Studio, AI Builder, Dynamics 365, Microsoft 365, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **14:45 - 15:15**, Amphi E002: **Du meeting à l’insight : comment l’IA enrichit la donnée client et oriente les actions**. Speakers: Maeva Sardesousa, Yohan Delmas, Ismaël Meslien. Topics: Copilot Studio, Fabric, AI Builder, Dynamics 365, Copilot, Sponsor. Level: 400 - Expert. Session en Français
+- **14:45 - 15:15**, Amphi E003: **Microsoft Fabric : le nouveau gestionnaire du patrimoine de données de l'entreprise ?**. Speakers: Philippe Geiger. Topics: Copilot Studio, Power BI, Fabric, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **15:15 - 15:30**, all rooms: **Coffee Break**
+- **15:30 - 16:00**, Amphi A001: **Agentic Engineering : construire une Digital Factory augmentée par l’IA chez Safran**. Speakers: MEHDI EL YASSIR. Topics: Power Apps, Power Automate, Copilot Studio, AI Builder, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **15:30 - 16:00**, Amphi C001: **Gouverner 500 agents IA avant qu'il ne soit trop tard**. Speakers: Alex MATHE. Topics: Copilot Studio, AI Builder, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **15:30 - 16:00**, Amphi E001: **Quel agent pour quel problème ? Guide de décision pour ne pas construire l'agent de trop**. Speakers: Phi-lay Nguyen, Michael Guimet. Topics: Copilot Studio, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **15:30 - 16:00**, Amphi E002: **Du flux à l’agent : faut-il vraiment tout transformer en agent ?**. Speakers: Clothilde Facon. Topics: Power Automate, Copilot Studio, Sponsor. Level: 100 - Débutant. Session en Français
+- **15:30 - 16:00**, Amphi E003: **Démystifier la réforme de la facturation électronique : les clés d’une mise en œuvre accélérée par la Power Platform**. Speakers: Raphaël BOTZON, Thomas BOURGERETTE. Topics: Power Apps, Power Automate, Dataverse. Level: 200 - Intermédiaire. Session en Français
+- **16:00 - 16:15**, all rooms: **Coffee Break**
+- **16:15 - 16:45**, Amphi A001: **REX - Optimisation du parcours médical du personnel navigant au CEMA (Air France)**. Speakers: Emmanuel GALLIS, Sebastien Bisconte. Topics: Power Apps, Power Automate. Level: 300 - Avancé. Session en Français
+- **16:15 - 16:45**, Amphi C001: **Du POC à la valeur: retour terrain sur l’industrialisation des agents Copilot Studio**. Speakers: Aurélien Atibard. Topics: Copilot Studio. Level: 200 - Intermédiaire. Session en Français
+- **16:15 - 16:45**, Amphi E001: **Agents Copilot : arrêtez d'improviser, commencez par cadrer.**. Speakers: SIMONAIRE CORALIE. Topics: Power Automate, Copilot Studio. Level: 200 - Intermédiaire. Session en Français
+- **16:15 - 16:45**, Amphi E002: **Du CRM aux agents IA : pourquoi vos données métiers sont la clé de votre transformation**. Speakers: Lassaad Attig, Yassine Ghilani. Topics: Copilot Studio, Dynamics 365, Azure, Sponsor. Level: 200 - Intermédiaire. Session en Français
+- **16:15 - 16:45**, Amphi E003: **Quel interfaçage CRM-ERP pour quels usages ? No code, Low code, Pro code ?**. Speakers: Guillaume ESPARRE, Pauline LEROY. Topics: Power Apps, Power Automate, Dataverse, Dynamics 365. Level: 200 - Intermédiaire. Session en Français
+- **16:45 - 17:00**, all rooms: **Break**
+- **17:00 - 17:30**, Amphi A001: **Au-delà de la technologie : placer l'humain au cœur de l'adoption de l'IA chez L'Oréal**. Speakers: MEHDI EL YASSIR. Topics: Copilot Studio. Level: 200 - Intermédiaire. Session en Français
+- **17:00 - 17:30**, Amphi C001: **En attente de confirmation**
+- **17:00 - 17:30**, Amphi E001: **Repenser l’intégration des projets IA : un point d’entrée agentique pour le Centre d’Excellence**. Speakers: Sandra Boucenna, Michael Guimet. Topics: Dataverse, Copilot Studio, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **17:00 - 17:30**, Amphi E002: **Placeholder - En attente de la session**
+- **17:00 - 17:30**, Amphi E003: **Du besoin métier au macro‑chiffrage en quelques minutes - Copilot le super assistant**. Speakers: Ludovic Solczynski. Topics: Power Apps, Power Automate, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **17:30 - 17:45**, all rooms: **Break**
+- **17:45 - 19:00**, Amphi C001: **Drinks / Party**
+
+## Wednesday, December 9, 2026
+
+- **08:00 - 09:00**, Amphi C001: **Breakfast**
+- **09:00 - 09:45**, Amphi A001: **Développer des agents Copilot Studio comme du code : YAML, CLI et AI coding tools en action**. Speakers: Yves Habersaat. Topics: Copilot Studio, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **09:00 - 09:45**, Amphi C001: **My name is Agent, Agent 365: Licensed to govern**. Speakers: Tom Mullens. Topics: Microsoft 365, Copilot, English Session. Level: 100 - Débutant
+- **09:00 - 09:45**, Amphi E001: **De la canvas artisanale à l'usine à Code Apps**. Speakers: Jean-Rémy Gallapont, DELARBOULAS Rémi. Topics: Power Apps, Power Automate, Dataverse, Power Pages, Copilot Studio. Level: 200 - Intermédiaire. Session en Français
+- **09:00 - 09:45**, Amphi E002: **Retour d'expérience TheFork: Le trio Snowflake x Power BI x Claude**. Speakers: Tristan Malherbe. Topics: Power BI, Fabric. Level: 200 - Intermédiaire. Session en Français
+- **09:00 - 09:45**, Amphi E003: **Designing Power Platform solutions in 2027: proven patterns, practices, and AI Integration**. Speakers: Serge Luca. Topics: Power Apps, Power Automate, Copilot Studio, Azure. Level: 300 - Avancé. Session en Français
+- **09:45 - 10:00**, all rooms: **Coffee Break**
+- **10:00 - 10:45**, Amphi A001: **Des agents IA qui ne quittent jamais le poste de travail : REX Microsoft Foundry on Windows : SLM + NPU + framework ad hoc**. Speakers: Gérémi ZANIN, Yasmina Gallaoui, Angela Audinet. Topics: AI Builder, Azure. Level: 200 - Intermédiaire. Session en Français
+- **10:00 - 10:45**, Amphi C001: **Trust but Verify: Testing Agents in Copilot Studio**. Speakers: Vivian Voss. Topics: Dataverse, Copilot Studio, English Session. Level: 200 - Intermédiaire
+- **10:00 - 10:45**, Amphi E001: **From Data to Decisions: Predictive Forecasting with Microsoft Fabric, Dataverse & Power Apps**. Speakers: Landolsi Mohamed Ali, dhia eddine ftiss. Topics: Power Apps, Dataverse, Fabric, Dynamics 365, English Session. Level: 200 - Intermédiaire
+- **10:00 - 10:45**, Amphi E002: **Retour d'expérience Chateauform sur Power BI & Fabric**. Speakers: Tristan Malherbe. Topics: Power BI, Fabric. Level: 200 - Intermédiaire. Session en Français
+- **10:00 - 10:45**, Amphi E003: **Beyond the Canvas: Let AI do the heavy lifting in Power Automate**. Speakers: Elianne Burgers, Ruben Baars. Topics: Power Automate, Microsoft 365, English Session. Level: 300 - Avancé
+- **10:45 - 11:00**, all rooms: **Coffee Break**
+- **11:00 - 11:45**, Amphi A001: **Agentic Engineering pour Dataverse : du code production-ready généré par l'IA**. Speakers: Allan De Castro, Nicolas Prats. Topics: Dataverse, Dynamics 365. Level: 400 - Expert. Session en Français
+- **11:00 - 11:45**, Amphi C001: **Gouverner la prolifération des agents IA - le guide de survie de l'IT**. Speakers: Nada Brisville, David Vachala. Topics: Copilot Studio, Microsoft 365, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **11:00 - 11:45**, Amphi E001: **Maîtriser Power Pages avec l’IA : créez facilement des sites web qui font la différence**. Speakers: Gilles Pommier. Topics: Power Automate, Dataverse, Power Pages, Microsoft 365. Level: 200 - Intermédiaire. Session en Français
+- **11:00 - 11:45**, Amphi E002: **The Art of Organizing Microsoft Fabric: Workspaces, Capacity Planning, Governance, and Data Mesh**. Speakers: Jean-Pierre Riehl. Topics: Power BI, Fabric. Level: 200 - Intermédiaire. Session en Français
+- **11:00 - 11:45**, Amphi E003: **Scaling administration: automation using the new Power Platform admin APIs**. Speakers: Yannick Reekmans. Topics: Power Apps, Dataverse, English Session. Level: 200 - Intermédiaire
+- **11:45 - 12:00**, all rooms: **Break**
+- **12:00 - 14:00**, all rooms: **Déjeuner / Networking / Sponsor**
+- **14:00 - 14:45**, Amphi A001: **Au-delà de l'agent : les Intelligent Workflows, ou comment le Github Copilot Harness gère enfin les processus complexes**. Speakers: Anes BEN ELHADJ HASSEN. Topics: Power Automate, Copilot Studio. Level: 300 - Avancé. Session en Français
+- **14:00 - 14:45**, Amphi C001: **RBAC in Dataverse: When “Looks Secure” is a compliance problem**. Speakers: Katerina Chernevskaya. Topics: Power Apps, Dataverse, English Session. Level: 200 - Intermédiaire
+- **14:00 - 14:45**, Amphi E001: **Studio Tweaks : décuplez les capacités de votre Studio Power Apps !**. Speakers: Emmanuel GALLIS, Alexandre PERRET, Nelson Boruchowitch, David Zoonekyndt. Topics: Power Apps. Level: 100 - Débutant. Session en Français
+- **14:00 - 14:45**, Amphi E002: **Power Platform for the Planet:Carbon, Counted, Corrected**. Speakers: Wiem Bousselmi, Arij Souissi. Topics: Power Apps, Power Automate, Dataverse, Copilot Studio, Power BI, Copilot, English Session. Level: 200 - Intermédiaire
+- **14:00 - 14:45**, Amphi E003: **Generative pages, quand ? quoi ? pourquoi ? comment ?**. Speakers: Clément Olivier. Topics: Power Apps, Dataverse. Level: 300 - Avancé. Session en Français
+- **14:45 - 15:00**, all rooms: **Coffee Break**
+- **15:00 - 15:45**, Amphi A001: **From Apps to Agents: Building MCP Apps in Copilot Studio**. Speakers: Mehdi Slaoui Andaloussi, Phi-lay Nguyen. Topics: Dataverse, Copilot Studio, Copilot. Level: 300 - Avancé. Session en Français
+- **15:00 - 15:45**, Amphi C001: **Governing Computer-Using Agents (CUA): A KYC Automation Case Study in Copilot Studio**. Speakers: Richa Pandit. Topics: Copilot Studio, Microsoft 365, Azure, English Session. Level: 300 - Avancé
+- **15:00 - 15:45**, Amphi E001: **De l'idée à l'application : démystifions les nouveaux outils IA du maker**. Speakers: Emmanuel PITEAU, BOURDIN STEVE. Topics: Power Apps, Copilot Studio, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **15:00 - 15:45**, Amphi E002: **UDF / Power BI change d'envergure.**. Speakers: Guillaume GAUDFROY. Topics: Power BI. Level: 400 - Expert. Session en Français
+- **15:00 - 15:45**, Amphi E003: **Building the Bridge: Bidirectional AI between Dynamics 365 and Copilot with Xrm.Copilot**. Speakers: David Lorenzo López. Topics: Power Apps, Dataverse, Copilot Studio, Copilot, English Session. Level: 300 - Avancé
+- **15:45 - 16:00**, all rooms: **Coffee Break**
+- **16:00 - 16:45**, Amphi A001: **Battle : CodeApps vs VibeCoding vs Dev assisté par IA**. Speakers: Clothilde Facon, EDOUARD VANHAVERBEKE, Florian VOILLOT. Topics: Power Apps, Dataverse. Level: 200 - Intermédiaire. Session en Français
+- **16:00 - 16:45**, Amphi C001: **From Prototype to Production: Build, Test, and Govern Agents with the Copilot Agent Kit**. Speakers: Mehdi Slaoui Andaloussi, AMIRA BELDJILALI. Topics: Copilot Studio, Microsoft 365, Copilot. Level: 300 - Avancé. Session en Français
+- **16:00 - 16:45**, Amphi E001: **Découvrons Copilot Managed Runtime - Est-ce la fin de Power Platform "as we know it" ?**. Speakers: Théophile CHIN-NIN. Topics: Dataverse, Copilot. Level: 100 - Débutant. Session en Français
+- **16:00 - 16:45**, Amphi E002: **Dataverse Business Skills & Semantic model: imposer vos règles métier à tous vos agents IA**. Speakers: Adilson Capaia. Topics: Power Apps, Dataverse, Copilot Studio, Copilot. Level: 100 - Débutant. Session en Français
+- **16:00 - 16:45**, Amphi E003: **FinOps des agents : maîtriser techniquement la consommation Copilot Studio**. Speakers: Bilel Benaouda. Topics: Copilot Studio, Copilot. Level: 200 - Intermédiaire. Session en Français
+- **16:45 - 17:00**, all rooms: **Coffee Break**
+- **17:00 - 17:45**, Amphi A001: **Play It (W)right: Automate Your End-to-End Tests in the Power Platform**. Speakers: Arjan Rijsdijk. Topics: Power Apps, Dataverse, Power Pages, Dynamics 365, English Session. Level: 300 - Avancé
+- **17:00 - 17:45**, Amphi C001: **WIQD comment rendre WorkIQ et les plugins accessible.**. Speakers: Eric Scherlinger, Henry Jammes. Topics: Microsoft 365, Copilot. Level: 400 - Expert. Session en Français
+- **17:00 - 17:45**, Amphi E001: **Claude Code Apps - Live !**. Speakers: Frederic Forest. Topics: Power Apps, Azure. Level: 200 - Intermédiaire. Session en Français
+- **17:00 - 17:45**, Amphi E002: **En attente de confirmation**
+- **17:00 - 17:45**, Amphi E003: **All Brains, No Hands? Custom Connectors and Copilot Studio**. Speakers: András Fördős. Topics: Power Apps, Power Automate, Dataverse, Copilot Studio, English Session. Level: 200 - Intermédiaire
+- **17:45 - 18:00**, all rooms: **Break**
+- **18:00 - 18:30**, Amphi C001: **Closing Keynote - Photos - Au revoir !**
