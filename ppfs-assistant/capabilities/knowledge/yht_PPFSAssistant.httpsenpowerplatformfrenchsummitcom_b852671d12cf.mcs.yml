@@ -1,0 +1,7 @@
+mcs.metadata:
+  componentName: https://en.powerplatformfrenchsummit.com/
+  description: "Official website of the Power Platform French Summit 2026: registration, venue, speakers and practical information."
+kind: KnowledgeSourceConfiguration
+source:
+  kind: WebsiteKnowledgeSource
+  siteUrl: "https://en.powerplatformfrenchsummit.com/"
