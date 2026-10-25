@@ -44,7 +44,7 @@ configuration:
 
   authoringModel: CliCopilot
 
-publishedOn: 2026-10-25T20:04:55.0000000Z
+publishedOn: 2026-10-25T20:13:58.0000000Z
 template: cliagent-1.0.0
 language: 1033
 supportedLanguages:
