@@ -37,15 +37,16 @@ Assistant for Power Platform French Summit 2026 attendees: agenda, sessions, reg
 Use them word for word, with their line breaks. Never rephrase, summarize or complete them.
 
 > You are PPFS Assistant, the assistant for attendees of the Power Platform French Summit 2026 (Paris, December 8 and 9, 2026, in person and online).
-> You answer questions about the agenda, sessions, speakers, registration and logistics.
+> You answer questions about the agenda, sessions, speakers, sponsors, registration and logistics.
 > Knowledge sources:
 > - For the agenda (sessions, times, rooms, speakers, topics, levels, session language), use the file agenda-ppfs2026.md. All times are in the Europe/Paris time zone.
+> - For sponsors, partners and exhibitors, use the file sponsors-ppfs2026.md.
 > - For registration, venue, practical information and anything else, use the official Summit website.
 > Answering agenda questions:
 > - Always give the day, time and room of a session, and its speakers.
 > - Several sessions run in parallel in different rooms: when asked what is on at a given time, list every session in that time slot.
 > - To find a speaker's sessions, search the agenda by speaker name.
-> - When asked for sessions on a topic or for a level (100 - Débutant to 400 - Expert), use the Topics and Level of each session.
+> - When asked for sessions on a topic or for a level (100 - Débutant to 400 - Expert), use the Topic and Level of each session.
 > Style and rules:
 > - Always reply in the language of the attendee's latest message, even if earlier messages or the sources are in another language: English question, English answer; French question, French answer, with the formal vous form.
 > - Keep answers short: at most 3 sentences, or a list of at most 5 items, with no emojis and no headings. Only if 6 or more sessions match, give the first 5, then say how many remain and offer to list them; when 5 or fewer match, list them all and do not mention other sessions.
@@ -56,10 +57,13 @@ Use them word for word, with their line breaks. Never rephrase, summarize or com
 
 ### Knowledge sources
 
-| Source | Description |
-| --- | --- |
-| Public website `https://en.powerplatformfrenchsummit.com/` | Official website of the Power Platform French Summit 2026: registration, venue, speakers and practical information. |
-| Uploaded file `specs/agenda-ppfs2026.md` (the website loads its agenda with a script it cannot read; never change this file) | Full agenda of the Power Platform French Summit 2026, December 8 and 9: session times, rooms, titles, speakers, topics and levels. |
+Add each source with its name and description, word for word. The website takes its name as `componentName`; an uploaded file keeps its file name as `componentName` (plugin rule), so its name is used only in the README and the pull request.
+
+| Source | Name | Description |
+| --- | --- | --- |
+| Public website `https://www.powerplatformfrenchsummit.com/` | PPFS 2026 Official Website | Official website of the Power Platform French Summit 2026 (December 8 and 9, EFREI Paris). Use it for registration and tickets, venue and access, speakers and practical information. For the session schedule, prefer the agenda file. For sponsors, prefer the sponsors file. |
+| Uploaded file `specs/ks/agenda-ppfs2026.md` (never change this file) | PPFS 2026 Agenda | Full PPFS 2026 agenda (December 8 and 9, 2026). Session days, times, rooms, speakers, topics, levels and languages. Use it for any schedule or speaker question. For tickets, venue and practical information, use the official website. |
+| Uploaded file `specs/ks/sponsors-ppfs2026.md` (never change this file) | PPFS 2026 Sponsors | List of the PPFS 2026 sponsors (December 8 and 9, 2026) by sponsorship level: Platinum, Gold and Silver. Use it for any question about sponsors, partners or exhibitors. |
 
 ### Settings
 
@@ -76,7 +80,7 @@ Set in the agent settings file. The property names come from the Copilot Studio 
 
 ## 4. Steps
 
-1. **Prerequisites**: check that the Power Platform CLI is version 2.13.1 or later, that Git is installed, that the `mcs-assistant` plugin is installed (if the former `copilot-studio` plugin is also installed, just mention it in the summary), and that the GitHub CLI is signed in to the presenter's account and set up for Git. Check that `specs/icon.png` is a PNG of 30 KB or less, otherwise stop. Select the Power Platform CLI auth profile from section 2.
+1. **Prerequisites**: check that the Power Platform CLI is version 2.13.1 or later, that Git and Node.js (required by the plugin's scripts) are installed, that the `mcs-assistant` plugin is installed (if the former `copilot-studio` plugin is also installed, just mention it in the summary), and that the GitHub CLI is signed in to the presenter's account and set up for Git. Check that `specs/icon.png` is a PNG of 30 KB or less and that `specs/ks/agenda-ppfs2026.md` and `specs/ks/sponsors-ppfs2026.md` exist, otherwise stop. `specs/evals/` holds the evaluation files: do not use them to build the agent. Select the Power Platform CLI auth profile from section 2.
 
 2. **Git**, in this exact order:
    - Initialize the working folder as a repository linked to the GitHub repository from section 2, without adding any file yet.
@@ -84,9 +88,9 @@ Set in the agent settings file. The property names come from the Copilot Studio 
    - Create the agent branch from section 2 from `main` and switch to it. If it already exists on GitHub (a previous run stopped), switch to it instead; if its pull request is already merged, stop and ask the presenter to delete the branch.
    - On the agent branch, commit "Add specification" with `specs/`, then push the branch. If there is nothing to commit because `specs/` is already identical on the branch, do not fail: skip the commit and continue.
 
-3. **Create and configure the agent** with `mcs-assistant:create-agent`, on the guided design path, without publishing. Give it the parameters from section 2 and all of section 3 except the icon: the instructions word for word (they contain apostrophes: make sure they are escaped for the shell when passed to the Power Platform CLI), the settings, and the two knowledge sources, to be added with `mcs-assistant:add-knowledge`. Ask it to add nothing else. The skill creates the agent, writes its files, validates them, pushes and pulls. Note the agent ID, schema name and solution it reports.
+3. **Create and configure the agent** with `mcs-assistant:create-agent`, on the guided design path, without publishing. Give it the parameters from section 2 and all of section 3 except the icon: the instructions word for word (they contain apostrophes: make sure they are escaped for the shell when passed to the Power Platform CLI), the settings, and the three knowledge sources with their names and descriptions, to be added with `mcs-assistant:add-knowledge`. Ask it to add nothing else. The skill creates the agent, writes its files, validates them, pushes and pulls. Note the agent ID, schema name and solution it reports.
 
-4. **Add the icon and push**: copy the icon (section 3), then push with `mcs-assistant:push-agent`. Pull with `mcs-assistant:pull-agent` and check that the instructions (identical to section 3), the settings, both knowledge sources and the icon are all there. If something is missing, do not stop: list it in the summary. Commit "Create PPFS Assistant" with the agent workspace, then push.
+4. **Add the icon and push**: copy the icon (section 3), then push with `mcs-assistant:push-agent`. Pull with `mcs-assistant:pull-agent` and check that the instructions (identical to section 3), the settings, the three knowledge sources with their descriptions and the icon are all there. If something is missing, do not stop: list it in the summary. Commit "Create PPFS Assistant" with the agent workspace, then push.
 
 5. **Publish** with `mcs-assistant:publish-agent`, giving it the agent, the environment and, as readiness evidence, the workspace and the successful push of step 4. Before publishing, note the agent's current publication date (it may be absent). The skill asks for confirmation: wait for the presenter's answer.
 
@@ -95,7 +99,7 @@ Set in the agent settings file. The property names come from the Copilot Studio 
    - In every case, pull with `mcs-assistant:pull-agent` and check that the publication date is later than the one noted in step 5. If not, pull again every 30 seconds, up to 5 times, then record "publication not confirmed".
    - If files changed, commit "Publish PPFS Assistant", then push.
 
-7. **README**: write `README.md` in English from the published agent files: overview (name, description, role), basic information (type, model, environment, solution and publisher, schema name, languages, memory, channels, icon shown as an image, welcome message, publication status), features and out-of-scope, knowledge sources, repository structure (`specs/` and the agent workspace), and how to update the agent with the plugin (pull, edit, push, publish). Invent nothing. Commit "Add README", then push.
+7. **README**: write `README.md` in English from the published agent files: overview (name, description, role), basic information (type, model, environment, solution and publisher, schema name, languages, memory, channels, icon shown as an image, welcome message, publication status), features and out-of-scope, knowledge sources, repository structure (`specs/` with the specification and icon, `specs/ks/` with the knowledge files, `specs/evals/` with the evaluation files, and the agent workspace), and how to update the agent with the plugin (pull, edit, push, publish). Invent nothing. Commit "Add README", then push.
 
 8. **Pull request**: with the GitHub CLI, open a pull request from the agent branch to `main`, titled "Add PPFS Assistant agent". Write its description in English from what this run actually did, inventing nothing:
    - **Summary**: what the agent is for, in two sentences;
@@ -103,12 +107,12 @@ Set in the agent settings file. The property names come from the Copilot Studio 
    - **Configuration**: instructions (summarized), knowledge sources, languages, welcome message, memory, channels, icon;
    - **How it was built**: the plugin skills invoked, in order, with their result;
    - **Validation**: settings retained after the pull in step 4, and the publication result;
-   - **Review checklist**: instructions match the specification, both knowledge sources present, no other component, agent tested in Copilot Studio.
+   - **Review checklist**: instructions match the specification, all three knowledge sources present, no other component, agent tested in Copilot Studio.
    Do not merge it: merging is the presenter's review step.
 
 ## 5. Success criteria
 
-- PPFS Assistant is a published GitHub Copilot Harness agent with its instructions, both knowledge sources, French as additional language, memory, the icon, the welcome message and the Teams and Microsoft 365 Copilot channels, and no other component.
+- PPFS Assistant is a published GitHub Copilot Harness agent with its instructions, the three knowledge sources, French as additional language, memory, the icon, the welcome message and the Teams and Microsoft 365 Copilot channels, and no other component.
 - Every Copilot Studio operation went through an `mcs-assistant` skill.
 - The agent branch on GitHub contains `README.md`, `specs/` and the agent workspace, and an open pull request to `main` describes the agent.
 

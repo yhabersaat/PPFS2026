@@ -1,7 +1,7 @@
 mcs.metadata:
-  componentName: https://en.powerplatformfrenchsummit.com/
-  description: "Official website of the Power Platform French Summit 2026: registration, venue, speakers and practical information."
+  componentName: PPFS 2026 Official Website
+  description: Official website of the Power Platform French Summit 2026 (December 8 and 9, EFREI Paris). Use it for registration and tickets, venue and access, speakers, sponsors and practical information. For the session schedule, prefer the agenda file.
 kind: KnowledgeSourceConfiguration
 source:
   kind: WebsiteKnowledgeSource
-  siteUrl: "https://en.powerplatformfrenchsummit.com/"
+  siteUrl: https://www.powerplatformfrenchsummit.com/
