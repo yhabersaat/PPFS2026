@@ -1,0 +1,8 @@
+mcs.metadata:
+  componentName: Microsoft Learn Docs
+  description: Searches official Microsoft documentation on Microsoft Learn. Use it for every technical question about the content of a Summit session (Copilot Studio, Power Apps, Power Automate, Dataverse, Power BI, Fabric, Azure, Microsoft 365 Copilot and related technologies). Do not use it for the Summit agenda, speakers, sponsors or logistics.
+kind: McpTool
+authMode: Invoker
+connectionReference: new_sharedmicrosoftlearndocsmcpserver_ac8e6fca
+connectorId: /providers/Microsoft.PowerApps/apis/shared_microsoftlearndocsmcpserver
+operationId: microsoft_docs_search

@@ -1,0 +1,85 @@
+{
+  "environmentId": "3bd8a3f5-8e4c-eb9f-b86b-a7996cc5eb06",
+  "agentId": "",
+  "suiteId": "",
+  "name": "PPFS Assistant Conversations",
+  "suiteType": "multiTurn",
+  "testCases": [
+    {
+      "turns": [
+        {
+          "question": "What's on Wednesday at 2 PM?",
+          "expectedResponse": "Wednesday, December 9, 2026, 14:00 - 14:45, five sessions: Amphi A001, Au-delà de l'agent : les Intelligent Workflows (Anes Ben Elhadj Hassen, Mélissa Sari); Amphi C001, RBAC in Dataverse (Katerina Chernevskaya); Amphi E001, Studio Tweaks (Emmanuel Gallis, Alexandre Perret, Nelson Boruchowitch, David Zoonekyndt); Amphi E002, Power Platform for the Planet (Wiem Bousselmi, Arij Souissi); Amphi E003, Generative pages (Clément Olivier)."
+        },
+        {
+          "question": "Which of them are in English?",
+          "expectedResponse": "Two: RBAC in Dataverse (Katerina Chernevskaya, Amphi C001) and Power Platform for the Planet (Wiem Bousselmi, Arij Souissi, Amphi E002)."
+        },
+        {
+          "question": "What level is the Generative pages session?",
+          "expectedResponse": "300 - Advanced (Avancé)."
+        }
+      ]
+    },
+    {
+      "turns": [
+        {
+          "question": "Quelles sessions présente Mehdi Slaoui Andaloussi ?",
+          "expectedResponse": "Deux sessions le mercredi 9 décembre 2026 : 15:00 - 15:45, Amphi A001, « From Apps to Agents: Building MCP Apps in Copilot Studio » ; 16:00 - 16:45, Amphi C001, « From Prototype to Production: Build, Test, and Govern Agents with the Copilot Agent Kit »."
+        },
+        {
+          "question": "Laquelle est en anglais ?",
+          "expectedResponse": "La session sur le Copilot Agent Kit, mercredi 9 décembre 2026 à 16:00 en Amphi C001. La session sur les MCP Apps est en français."
+        }
+      ]
+    },
+    {
+      "turns": [
+        {
+          "question": "Who are the Platinum sponsors?",
+          "expectedResponse": "Orange Business and Expertime."
+        },
+        {
+          "question": "Is Wakers a sponsor?",
+          "expectedResponse": "Yes, Wakers is a Gold sponsor."
+        },
+        {
+          "question": "Et MOCA ?",
+          "expectedResponse": "Oui, MOCA (Modern Consulting & Adoption) est le sponsor Silver."
+        }
+      ]
+    },
+    {
+      "turns": [
+        {
+          "question": "Qu'est-ce qui se passe mardi à 17h ?",
+          "expectedResponse": "Mardi 8 décembre 2026, 17:00 - 17:30, cinq sessions : Amphi A001, L'humain au cœur de l'adoption de l'IA chez L'Oréal (Mehdi EL Yassir) ; Amphi C001, Copilot Cowork (Henry Jammes, Olivier Conort) ; Amphi E001, Un point d'entrée agentique pour le Centre d'Excellence (Sandra Boucenna, Michael Guimet) ; Amphi E002, REX Fabric Apps (Benjamin D'Aletto) ; Amphi E003, Du besoin métier au macro-chiffrage (Ludovic Solczynski)."
+        },
+        {
+          "question": "Laquelle parle de Fabric ?",
+          "expectedResponse": "« REX Fabric Apps: quand Power BI ne suffit plus, une équipe BI passe aux Fabric Apps », par Benjamin D'Aletto, mardi 8 décembre 2026, 17:00 - 17:30, en Amphi E002."
+        },
+        {
+          "question": "Et après, il se passe quoi ?",
+          "expectedResponse": "Une pause de 17:30 à 17:45, puis la soirée (Drinks / Party) de 17:45 à 19:00 en Amphi C001."
+        }
+      ]
+    },
+    {
+      "turns": [
+        {
+          "question": "Where does the Summit take place?",
+          "expectedResponse": "At EFREI Paris, on December 8 and 9, 2026."
+        },
+        {
+          "question": "What time does registration open on Tuesday?",
+          "expectedResponse": "Tuesday, December 8, 2026, at 08:00: registration and breakfast until 09:00, before the opening keynote at 09:00 in Amphi C001."
+        },
+        {
+          "question": "Can you recommend a restaurant near the venue?",
+          "expectedResponse": "Politely declines in one sentence and reminds that the assistant helps with the agenda, sessions, speakers, sponsors, registration and logistics."
+        }
+      ]
+    }
+  ]
+}

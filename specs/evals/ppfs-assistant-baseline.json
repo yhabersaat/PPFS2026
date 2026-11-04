@@ -1,0 +1,56 @@
+{
+  "environmentId": "3bd8a3f5-8e4c-eb9f-b86b-a7996cc5eb06",
+  "agentId": "",
+  "suiteId": "",
+  "name": "PPFS Assistant Baseline",
+  "testCases": [
+    {
+      "question": "Quand a lieu la session d'Yves Habersaat ?",
+      "expectedResponse": "Mercredi 9 décembre 2026, de 09:00 à 09:45, en Amphi A001 : « Développer des agents Copilot Studio comme du code : YAML, CLI et AI coding tools en action »."
+    },
+    {
+      "question": "Qui présente la keynote d'ouverture ?",
+      "expectedResponse": "Aurélien Clere et Henry Jammes, mardi 8 décembre 2026, de 09:00 à 10:00, en Amphi C001."
+    },
+    {
+      "question": "In which room is the Copilot Agent Kit session?",
+      "expectedResponse": "Amphi C001, Wednesday, December 9, 2026, 16:00 - 16:45: From Prototype to Production: Build, Test, and Govern Agents with the Copilot Agent Kit, by Mehdi Slaoui Andaloussi."
+    },
+    {
+      "question": "Quelles sessions présente Gilles Pommier ?",
+      "expectedResponse": "Deux sessions : mardi 8 décembre 2026, 11:00 - 11:30, Amphi E003, « ROI et Productivité : L'approche Vibe Coding pour vos portails Power Pages » ; mercredi 9 décembre 2026, 11:00 - 11:45, Amphi E001, « Maîtriser Power Pages avec l'IA »."
+    },
+    {
+      "question": "Who presents the session Trust but Verify?",
+      "expectedResponse": "Vivian Voss, Wednesday, December 9, 2026, 10:00 - 10:45, Amphi C001."
+    },
+    {
+      "question": "Quelle session de niveau Expert a lieu le mardi ?",
+      "expectedResponse": "Une seule : mardi 8 décembre 2026, 14:45 - 15:15, Amphi E002, « Du meeting à l'insight : comment l'IA enrichit la donnée client et oriente les actions » (Maeva Sardesousa, Yohan Delmas, Ismaël Meslien)."
+    },
+    {
+      "question": "What is on in Amphi E002 on Wednesday at 5 PM?",
+      "expectedResponse": "Wednesday, December 9, 2026, 17:00 - 17:45, Amphi E002: Architecture Power Platform Sécurisée avec Managed Identity et VNet, by Allan De Castro."
+    },
+    {
+      "question": "Qui anime la session Copilot Cowork ?",
+      "expectedResponse": "Henry Jammes et Olivier Conort, mardi 8 décembre 2026, 17:00 - 17:30, Amphi C001."
+    },
+    {
+      "question": "Où se déroule le Summit ?",
+      "expectedResponse": "À l'EFREI Paris, les 8 et 9 décembre 2026."
+    },
+    {
+      "question": "Quels sont les sponsors Platinum ?",
+      "expectedResponse": "Orange Business et Expertime."
+    },
+    {
+      "question": "Is Microsoft a sponsor of the Summit?",
+      "expectedResponse": "Yes, Microsoft is a Gold sponsor."
+    },
+    {
+      "question": "Quel est le sponsor Silver ?",
+      "expectedResponse": "MOCA (Modern Consulting & Adoption)."
+    }
+  ]
+}
