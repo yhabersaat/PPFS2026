@@ -83,6 +83,8 @@ Two evaluation sets were created in Copilot Studio with the Copilot Studio MCP s
 
 The agent is maintained with the Copilot Studio plugin for GitHub Copilot CLI (`copilot-studio-plugin` / `mcs-assistant`), which drives the Power Platform CLI (`pac copilot`). Prerequisites: PAC CLI 2.13.1 or later, an auth profile for the environment above (`pac auth select`), and the GitHub Copilot CLI with the plugin installed.
 
+ These steps require a PAC-connected workspace containing `.mcs/conn.json`; a Git checkout and a selected auth profile alone are insufficient. On a fresh checkout, first use the plugin's `clone-agent` skill with the agent ID and environment above to clone the existing cloud agent into a separate, empty agent destination. Use the connected agent folder reported by PAC for all edits and in place of `.\ppfs-assistant` in the commands below; before committing, copy the updated source files back to this repository's `ppfs-assistant/`, exclude `.mcs/`, and review the resulting diff.
+
 1. Pull the latest cloud state before editing:
    ```powershell
    pac copilot pull --project-dir .\ppfs-assistant

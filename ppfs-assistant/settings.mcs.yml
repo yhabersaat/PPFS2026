@@ -41,12 +41,10 @@ configuration:
             - Never ask for personal data.
 
     greetingText: "Bienvenue au Power Platform French Summit 2026 (Paris, 8 et 9 décembre) ! Je suis PPFS Assistant : posez-moi vos questions sur l'agenda, les sessions, les intervenants ou la logistique. You can also ask in English."
-    memory:
-      enableMemory: true
+    enableMemory: true
 
   authoringModel: CliCopilot
 
-publishedOn: 2026-11-04T09:48:42.0000000Z
 template: cliagent-1.0.0
 language: 1033
 supportedLanguages:
